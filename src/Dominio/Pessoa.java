@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 @Entity
 public class Pessoa implements Serializable{
 	
-		@Id
+	@Id
 	@GeneratedValue
 	private static final long serialVersionUID = 1L;
   
