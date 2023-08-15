@@ -26,7 +26,7 @@ public class Programa {
 		
 	
 		em.getTransaction().commit();
-		System.out.println("Pronto!");
+		System.out.println("Pronto!!");
 		
 	}
 
