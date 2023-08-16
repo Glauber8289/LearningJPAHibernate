@@ -18,6 +18,7 @@ public class Programa {
 		em.getTransaction().begin();
 		
 		
+<<<<<<< HEAD
 	     Pessoa p=em.find(Pessoa.class, 2);
 	     
 	     System.out.println(p);
@@ -25,6 +26,12 @@ public class Programa {
 		System.out.println("Pronto");
 		em.close();
 		emf.close();
+=======
+	
+		em.getTransaction().commit();
+		System.out.println("Pronto!!");
+		
+>>>>>>> b68f7ceda91d9c302335a94bd9f8881dee3a6415
 	}
 
 }
