@@ -29,7 +29,7 @@ public class Programa {
 =======
 	
 		em.getTransaction().commit();
-		System.out.println("Pronto!!");
+		System.out.println("Pronto!");
 		
 >>>>>>> b68f7ceda91d9c302335a94bd9f8881dee3a6415
 	}
