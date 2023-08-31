@@ -18,7 +18,7 @@ public class Programa {
 		em.getTransaction().begin();
 		
 		
-<<<<<<< HEAD
+<<< HEAD
 	     Pessoa p=em.find(Pessoa.class, 2);
 	     
 	     System.out.println(p);
